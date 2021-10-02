@@ -1,0 +1,29 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Emmanuel Henri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "it": "^1.1.1",
+    "nodemon": "^1.14.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeylisseMachado/COMP229_Assignment1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HeylisseMachado/COMP229_Assignment1/issues"
+  },
+  "homepage": "https://github.com/HeylisseMachado/COMP229_Assignment1#readme",
+  "description": ""
+}
